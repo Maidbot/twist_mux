@@ -8,16 +8,16 @@
 topics:
 -
   name    : coverage
-  topic   : coverage_vel
+  topic   : /coverage/cmd_vel
   timeout : 0.5
   priority: 10
 -
   name    : keyboard
-  topic   : key_vel
+  topic   : /teleop/cmd_vel
   timeout : 0.5
   priority: 100
 -
   name    : recovery
-  topic   : recovery_vel
+  topic   : /recovery/cmd_vel
   timeout : 0.5
   priority: 90

@@ -10,7 +10,7 @@ topics:
   name    : coverage
   topic   : /coverage/cmd_vel
   timeout : 0.5
-  priority: 10
+  priority: 50
 -
   name    : keyboard
   topic   : /teleop/cmd_vel
@@ -21,3 +21,8 @@ topics:
   topic   : /recovery/cmd_vel
   timeout : 0.5
   priority: 90
+-
+  name    : demo
+  topic   : /demo/cmd_vel
+  timeout : 0.5
+  priority: 40
